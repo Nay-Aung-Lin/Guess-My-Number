@@ -49,9 +49,6 @@ document.querySelector('.check').addEventListener('click',function(){
 document.querySelector('.again').addEventListener("click",function(){
     
     secretNumber = Math.trunc(Math.random() * 20) + 1;
-    console.log(secretNumber);
-
-
     document.querySelector('h1').textContent = "Guess My Number!";
     document.querySelector('.number').textContent='?';
     document.querySelector('.number').style.width = "15rem";
