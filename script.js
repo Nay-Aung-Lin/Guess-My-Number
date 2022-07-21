@@ -13,6 +13,8 @@ document.querySelector('.check').addEventListener('click',function(){
    }else if(secretNumber === yourNumber){
         displayMessage("You are Awesome!");
         document.querySelector('.number').textContent= secretNumber;
+        document.querySelector('input').style.visibility = "hidden";
+        document.querySelector('.check').style.visibility = "hidden";
         document.querySelector('body').style.backgroundColor = "blue";
         document.querySelector('h1').textContent="You got it! My Number is ";
         document.querySelector('.number').style.width = "30rem";
