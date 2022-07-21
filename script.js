@@ -6,7 +6,6 @@ const displayMessage = function(message){
     document.querySelector('.message').textContent = message;
 }
 
-console.log(typeof yourNumber);
 document.querySelector('.check').addEventListener('click',function(){
    let yourNumber = Number(document.querySelector('.guess').value);
    if(!yourNumber){
